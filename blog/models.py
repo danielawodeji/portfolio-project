@@ -11,4 +11,4 @@ class Blog(models.Model):
         return self.title
 
     def summary(self):
-        return self.body[:25]    
+        return self.body[:25] + '...'   
